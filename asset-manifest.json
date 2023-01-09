@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/beats-music/static/css/main.b18257e4.css",
+    "main.js": "/beats-music/static/js/main.c54a642a.js",
+    "static/js/787.da517bf8.chunk.js": "/beats-music/static/js/787.da517bf8.chunk.js",
+    "index.html": "/beats-music/index.html",
+    "main.b18257e4.css.map": "/beats-music/static/css/main.b18257e4.css.map",
+    "main.c54a642a.js.map": "/beats-music/static/js/main.c54a642a.js.map",
+    "787.da517bf8.chunk.js.map": "/beats-music/static/js/787.da517bf8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b18257e4.css",
+    "static/js/main.c54a642a.js"
+  ]
+}
