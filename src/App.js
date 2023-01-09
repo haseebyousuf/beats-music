@@ -42,13 +42,33 @@ function App() {
             animationPercentage: animation,
         });
     };
-    const songEndHandler = async () => {
-        let currentIndex = songs.findIndex(
-            (song) => song.id === currentSong.id
-        );
-        await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    const activeLibraryHandler = (nextPrev) => {
+        const newSongs = songs.map((songClicked) => {
+            if (songClicked.id === nextPrev.id) {
+                return {
+                    ...songClicked,
+                    active: true,
+                };
+            } else {
+                return {
+                    ...songClicked,
+                    active: false,
+                };
+            }
+        });
+        setSongs(newSongs);
         if (isPlaying) audioRef.current.play();
     };
+    
+      const songEndHandler = async () => {
+          let currentIndex = songs.findIndex(
+              (song) => song.id === currentSong.id
+          );
+          await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+          activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
+          if (isPlaying) audioRef.current.play();
+          return;
+      };
     return (
         <div className={`App ${libraryStatus ? "library-active" : ""}`}>
             <Nav
